@@ -1,0 +1,154 @@
+{
+    "branches": {
+        "1-seh": {
+            "employees": [
+                "ma",
+                "ot",
+                "ab"
+            ],
+            "inventory": {
+                "blok 20x40": [],
+                "Tumba": [
+                    {
+                        "date": "01.10.2024",
+                        "emp_attendance": [
+                            "ma",
+                            "ot",
+                            "ab"
+                        ],
+                        "quantity": 610
+                    },
+                    {
+                        "date": "02.10.2024",
+                        "emp_attendance": [
+                            "ma",
+                            "ot",
+                            "ab"
+                        ],
+                        "quantity": 648
+                    }
+                ],
+                "Qizil tumba": [
+                    {
+                        "date": "03.10.2024",
+                        "emp_attendance": [
+                            "ma",
+                            "ot",
+                            "ab"
+                        ],
+                        "quantity": 370
+                    }
+                ]
+            }
+        },
+        "2-seh": {
+            "employees": [
+                "da",
+                "ik",
+                "ota",
+                "om"
+            ],
+            "inventory": {
+                "blok 20x40": [
+                    {
+                        "date": "01.10.2024",
+                        "emp_attendance": [
+                            "da",
+                            "ik",
+                            "ota"
+                        ],
+                        "quantity": 1115
+                    },
+                    {
+                        "date": "02.10.2024",
+                        "emp_attendance": [
+                            "da",
+                            "ik",
+                            "ota",
+                            "om"
+                        ],
+                        "quantity": 1455
+                    },
+                    {
+                        "date": "03.10.2024",
+                        "emp_attendance": [
+                            "da",
+                            "ik",
+                            "ota",
+                            "om"
+                        ],
+                        "quantity": 1020
+                    }
+                ],
+                "Qizil blok 20x40": [],
+                "blok 16x32": []
+            }
+        }
+    },
+    "employees": {
+        "ma": {
+            "name": "Ma'mirjon",
+            "emp_code": "ma",
+            "branch": "1-seh",
+            "salary": 597000.0
+        },
+        "ot": {
+            "name": "Otabek",
+            "emp_code": "ot",
+            "branch": "1-seh",
+            "salary": 597000.0
+        },
+        "ab": {
+            "name": "Abdunazar",
+            "emp_code": "ab",
+            "branch": "1-seh",
+            "salary": 597000.0
+        },
+        "da": {
+            "name": "Davronbek",
+            "emp_code": "da",
+            "branch": "2-seh",
+            "salary": 644000.0
+        },
+        "ik": {
+            "name": "Ikromjon",
+            "emp_code": "ik",
+            "branch": "2-seh",
+            "salary": 644000.0
+        },
+        "ota": {
+            "name": "Otabek",
+            "emp_code": "ota",
+            "branch": "2-seh",
+            "salary": 644000.0
+        },
+        "om": {
+            "name": "Omatbek",
+            "emp_code": "om",
+            "branch": "2-seh",
+            "salary": 402000.0
+        }
+    },
+    "products": {
+        "blok 20x40": {
+            "price": 650,
+            "description": "Concrete block size 20x40"
+        },
+        "Qizil blok 20x40": {
+            "price": 650,
+            "description": "Red concrete block size 20x40"
+        },
+        "Tumba": {
+            "price": 1100,
+            "description": "Concrete block tumba"
+        },
+        "Qizil tumba": {
+            "price": 1100,
+            "description": "Red concrete block tumba"
+        },
+        "blok 16x32": {
+            "price": 450,
+            "description": "Concrete block size 16x32"
+        }
+    }
+}
