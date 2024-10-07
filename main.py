@@ -1,3 +1,4 @@
+from bot_token import TOKEN
 from telegram.ext import Application, CommandHandler, ConversationHandler, MessageHandler, filters
 from bot_handlers import BRANCH_NAME, EMPLOYEE_NAME, EMP_ATTENDANCE, PRODUCT_NAME, RECORD_DATE, RECORD_QUANTITY
 from bot_handlers import start, create_branch_handler, branch_name_received, delete_branch_handler, delete_branch_received, list_branches_handler
@@ -8,7 +9,7 @@ from bot_handlers import calculate_salary_handler, calculate_salary_branch_recei
 
 def main():
     """Start the bot and handle all commands."""
-    application = Application.builder().token("6678455810:AAER7grRqqBQQpbGFzwu8s0b5yqSQPJCvb0").build()
+    application = Application.builder().token(TOKEN).build()
 
     # Add command handlers
     application.add_handler(CommandHandler('start', start))
